@@ -4,5 +4,7 @@ skip-ghc-check: true
 packages:
 - '.'
 extra-deps:
-- equational-reasoning-0.5.1.0
+- equational-reasoning-0.6.0.0
+- git: https://github.com/konn/presburger
+  commit: d60e953466de41db61689c23b843facc0dee3f02
 flags: {}
